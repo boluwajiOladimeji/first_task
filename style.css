@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: lightblue;
+}
+
+.main-center {
+  display: grid;
+  gap: 0.8rem;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.period {
+  font-size: 12px;
+  font-weight: bold;
+  display: flex;
+  gap: 4px;
+}
+
+.goals {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  text-transform: capitalize;
+}
+
+.goals li {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.goals i {
+  font-size: 0.7rem;
+}
+
+article h3 {
+  margin-block: 0.6rem;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+a:link,
+a:visited {
+  color: blue;
+}
+
+@media screen and (min-width: 768px) {
+  .main-center {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

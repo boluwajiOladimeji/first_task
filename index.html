@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Path to Greatness</h1>
+    <main>
+      <div class="main-center">
+        <div>
+          <img src="./my-img.webp" alt="" data-testid="slackProfilePicture" />
+          <!-- Personal details -->
+
+          <h2 data-testid="slackDisplayName">Boluwaji</h2>
+          <div class="period">
+            <p data-testid="currentDay" class="cur_day">Current day</p>
+            <p data-testid="currentTimeUTC" class="cur_time">Current time</p>
+          </div>
+          <p data-testid="slackEmail"><em>oladimejiboluwaji@gmail.com</em></p>
+        </div>
+
+        <!-- Goals in 2 years -->
+        <div>
+          <article>
+            <h3>Goals</h3>
+            <ul class="goals">
+              <li>
+                <span><i class="fa-regular fa-hand-point-right"></i></span
+                ><span>expert in frontend technologies</span>
+              </li>
+              <li>
+                <span><i class="fa-regular fa-hand-point-right"></i></span
+                ><span>comfortable working with git and github</span>
+              </li>
+              <li>
+                <span><i class="fa-regular fa-hand-point-right"></i></span
+                ><span>Comfortable with frontend testing</span>
+              </li>
+              <li></li>
+              <li></li>
+            </ul>
+          </article>
+          <article>
+            <h3>Useful Links</h3>
+            <ul class="links">
+              <li>
+                <a
+                  href="https://hng.tech/learn"
+                  target="_blank"
+                  data-testid="hngLink"
+                  >Develop coding skills on HNG</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://keyword.dog"
+                  target="_blank"
+                  data-testid="keywordLink"
+                  >Keyword Link</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://scrapeanyweb.site"
+                  target="_blank"
+                  data-testid="scrapeanywebLink"
+                  >scap any website</a
+                >
+              </li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
